@@ -1,4 +1,7 @@
 let text_list: string[] = []
+input.onButtonPressed(Button.B, function () {
+    control.reset()
+})
 input.onGesture(Gesture.Shake, function () {
     text_list = [
     "Yes.",
